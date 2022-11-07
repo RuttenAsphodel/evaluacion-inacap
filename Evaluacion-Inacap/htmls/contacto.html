@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Contacto</title>
+    <link href="../css/styles.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="contenedor-texto-form">
+        <div class="contenedor-poster-vert">
+            <img src="../images/vertical-banner.png" id="vertical">
+        </div>
+        <div class="contenedor-texto-contenido" id="contenedor-form">
+            <h3>Contáctanos</h3>
+            <p>Guia de Medios Digitales, donde las artes digitales se encuentran.</p>
+            <p><span class="material-symbols-outlined">phone_in_talk</span> +56949881981 <span
+                    class="material-symbols-outlined">phone_in_talk</span> +56989376647</p>
+            </p>
+            <p><span class="material-symbols-outlined">mail</span><a href="#"> j.lopez98000@gmail.com</a></p>
+            <p><span class="material-symbols-outlined">mail</span><a href="#"> tc.cvalenzuela@gmail.com</a></p>
+            <p><span class="material-symbols-outlined">location_city</span><a href="#"> Santiago, Chile</a></p>
+        </div>
+
+        <div class="contenedor-texto-contenido" id="contenedor-form">
+            <form action="#" autocomplete="off">
+                <p> <input type="text" name="nombre" class="campo" placeholder="Ingresa tu nombre"></p>
+                <p><input type="email" name="email" class="campo" placeholder="Ingresa tu Email"></p>
+                <p><input type="email" name="numero de contacto" class="campo"
+                        placeholder="Ingresa tu numero telefonico"></p>
+                <textarea name="mensaje" class="campo" placeholder="Tu Mensaje..."></textarea>
+
+                <p>Quieres recibir novedades?</p>
+                <input type="radio" name="respuesta" value="si" /> Si <br />
+                <input type="radio" name="respuesta" value="no" /> No <br />
+                <br>
+                <p>Elige las categorias que te interesan:</p>
+
+                <input type="checkbox" name="opciones" class="opcion"> Musica
+                <input type="checkbox" name="opciones" class="opcion"> Videojuegos
+                <input type="checkbox" name="opciones" class="opcion"> Cine
+                <input type="checkbox" name="opciones" class="opcion"> Series
+                <input type="checkbox" name="opciones" class="opcion"> Libros
+                <br>
+                <br>
+    
+                <p>Como llegaste al sitio?</p>
+                <select name="elegirRecom" id="selectRecom">
+
+                    <option selected disabled>Seleccione una opcion</option>
+                    <option value ="opt1">Busqueda en Internet</option>
+                    <option value ="opt2">Recomendacion en Redes Sociales</option>
+                    <option value ="opt3">Publicidad en Youtube</option>
+                    <option value ="opt4">Recomendacion de un amigo</option>
+                </select>
+            </form>
+            <button id="btn-enviar">Enviar</button>
+            <br>
+        </div>
+    </div>
+</body>
+
+</html>
