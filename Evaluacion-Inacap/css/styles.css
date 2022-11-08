@@ -247,3 +247,35 @@ button
     height:600px
 
 }
+
+#portada-contenedor
+{
+    color:aliceblue;
+    width:33%;
+    align-content: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+#portada-contenedor a
+{
+    color:black;
+    font-style: normal;
+}
+
+#portada-textos
+{
+    background:white;
+    color:black;
+    padding-left:.5rem;
+    padding-right: .5rem;
+    border-radius:10px;
+    font-family: 'Poppins';
+}
+
+#portada-imagen
+{
+    width:100%;
+}
